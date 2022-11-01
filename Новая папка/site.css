@@ -1,0 +1,111 @@
+header{
+
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    grid-area: header;
+    background-color: rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
+    text-decoration: underline rgb(255, 255, 255);
+    margin-bottom: 0%;
+    font-size: 200%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    grid-area: head;
+}
+body{
+    margin: 0%;
+    margin-top: 1%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: 
+      "head head "
+      "left  info"
+      "center center"
+      "photo1 photo2"
+      "text text"
+      "footer footer";
+}
+#leftBlock {
+    padding-left: 15%;
+    background-color: rgb(25, 25, 25);
+    margin-left: 4%;
+    font-family: 'Times New Roman', Times, serif;
+    color:rgb(255, 255, 255);
+    border-left: 3px solid black;
+    grid-area: left;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+#infopage {
+    margin-right: 4.8%;
+    background-color: rgb(25, 25, 25);
+    padding-left: 1%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 19pt;
+    color:rgb(255, 255, 255);
+    border-right: 3px solid black;
+    grid-area: info;
+    padding-bottom: 1%;
+    padding-right: 5%;
+}
+#centre {
+    background-color: rgb(0, 0, 0);
+    margin-left: 2%;
+    margin-right: 2.4%;
+    color:rgb(255, 255, 255);
+    grid-area: center;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-size: 200%;
+    text-decoration: underline rgb(255, 255, 255);
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+#photo1{
+    grid-area: photo1;
+    text-align: center;
+    background-color: rgb(25, 25, 25);
+    border-left: 3px solid black;
+    margin-left: 4%;
+    padding-top: 2%;
+    padding-bottom: 4%;
+}
+#photo2{
+    grid-area: photo2;
+    text-align: center;
+    background-color: rgb(25, 25, 25);
+    border-right: 3px solid black;
+    margin-right: 4.8%;
+    padding-top: 2%;
+    padding-bottom: 4%;
+}
+#text {
+    margin-right: 2.4%;
+    background-color: rgb(25, 25, 25);
+    padding-left: 1%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15pt;
+    color:rgb(255, 255, 255);
+    border-right: 3px solid black;
+    border-left: 3px solid black;
+    grid-area: text;
+    padding-bottom: 1%;
+    padding-right: 5%;
+    margin-left: 2%;
+    text-align: center;
+}
+footer{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    background-color: rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
+    text-decoration: underline rgb(255, 255, 255);
+    margin-bottom: 0%;
+    font-size: 150%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    grid-area: footer;
+    padding-left: 5%;
+    padding-right:5%;
+}
